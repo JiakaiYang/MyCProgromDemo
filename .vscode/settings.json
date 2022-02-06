@@ -1,0 +1,22 @@
+{
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "string.h": "c",
+        "functional": "c",
+        "stdio.h": "c",
+        "chrono": "c",
+        "algorithm": "c",
+        "string_view": "c",
+        "array": "c",
+        "compare": "c",
+        "istream": "c",
+        "ostream": "c",
+        "ratio": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c",
+        "variant": "c",
+        "initializer_list": "c",
+        "valarray": "c"
+    }
+}
