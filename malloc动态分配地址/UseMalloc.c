@@ -12,7 +12,7 @@
  * 
  * 使用方法
  * 要使用malloc函数必须引入头文件#include <malloc.h>
- * malloc函数只有一个行参
+ * malloc函数只有一个形参
  * 
  */
 int main(void)
@@ -26,6 +26,6 @@ int main(void)
      */
     scanf("%d",p);
     printf("%d\n",*p);
-    free(p);
+    free(p);//p指针是由系统自动分配的空间无法释放，但是释放了p指向的空间。
     return 0;
 }
