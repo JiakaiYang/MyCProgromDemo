@@ -3,7 +3,7 @@
 二分搜索  
 
  */
-int binarySearch(int[], int, int);
+int binarySearch(int*, int, int);
 int main(void)
 {   int arr[] = {22,33,44,55,66,77,88};
     int tag;
@@ -18,7 +18,7 @@ int main(void)
     }
     return 0;
 }
-int binarySearch(int arr[], int len, int target)
+int binarySearch(int * arr, int len, int target)
 {
     int left = 0;
     int right = len - 1;
