@@ -4,12 +4,16 @@ using namespace std;
 int getMax(int*,int);
 int main()
 {   int arr[] = {123,11,23,441,512,6346,7,234};
+    int two_dimensionalArr[][4] ={{1,2,313,6},{12,123,33,12},{11,1,23,14},{1,231,11,22}} ;
     int length = sizeof(arr)/sizeof(arr[0]);
     cout<<"one another 3者或3者以上的相互代词   与each other 类似"<<endl;
     cout<<"arr数组的长度为:"<<sizeof(arr)/sizeof(arr[0])<<endl;
     cout<<(int)arr<<endl;  //第一个元素的地址
     cout<<(int)&arr[1]<<endl; //第二个元素的地址  相差4   int类型 站4个字节
     cout<<"数组中最大的数值为:"<<getMax(arr,length)<<endl;
+
+    cout<<"two_dimensionalArr数组所占空间为:"<<sizeof(two_dimensionalArr)/sizeof(two_dimensionalArr[0][0])<<endl;
+
     // string str[50];
     // str = getMax(arr,length) > 0 ? "答案正确" : "答案错误" ;  //为什么这里就错了呢？？
     // cout<<str<<endl;

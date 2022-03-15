@@ -17,6 +17,7 @@
         "utility": "c",
         "variant": "c",
         "initializer_list": "c",
-        "valarray": "c"
+        "valarray": "c",
+        "iostream": "cpp"
     }
 }
