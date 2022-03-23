@@ -2,7 +2,8 @@
 /**
  * https://www.bilibili.com/video/BV1TD4y1Q751?spm_id_from=333.337.search-card.all.click
  * 插入排序
- * 
+ * 最好的情况时间复杂度为O(n)
+ * 最坏的情况时间复杂度为O(n^2)
  */
 using namespace std;
 void insertion_sort(int arr[], int length);
